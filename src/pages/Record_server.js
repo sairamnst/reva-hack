@@ -5,6 +5,7 @@ import Searchbar from "../components/searchbar"
 import "./Record_server.css"
 import "tachyons"
 export default function Record_server(){
+    console.log(typeof(Records))
     return(
         <>
         <div className="flex">
