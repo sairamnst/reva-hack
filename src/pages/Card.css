@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.man{
+    background-color: lightgreen;
+    border:3px;
+    border-radius: 12px;
+    margin:6px;
+    margin-left: 15px;
+    padding:3px;
+    padding-top:5px;
+    border-width: .25rem;
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );	
+    display:inline-block;
+    max-width: 400px;
+    max-height: 700px;
+}
+
+.man:hover{
+    transition:0.25s ease-out;
+    background-color:beige;
+}

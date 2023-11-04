@@ -1,0 +1,70 @@
+[
+    {
+      "sector_name": "Javascript",
+      "sector_uuid": "c3deb53c-2a6e-4442-8162-71f0ccc9f454",
+      "featured_course": [
+        {
+          "course_uuid": "940bba37-e6ad-483d-92b6-470e294d506d",
+          "title": "Testing_Course",
+          "student_no": 1,
+          "author": {
+            "name": "admin"
+          },
+          "price": "100.00",
+          "image_url": "/WhatsApp Image 2023-11-03 at 19.05.42_aa21785e.jpg"
+        }
+      ],
+      "sector_image": "http://localhost/media/sector_image/download_BFewGOo.jfif"
+    },
+    {
+      "sector_name": "Javascript",
+      "sector_uuid": "c3deb53c-2a6e-4442-8162-71f0ccc9f454",
+      "featured_course": [
+        {
+          "course_uuid": "940bba37-e6ad-483d-92b6-470e294d506d",
+          "title": "Testing_Course",
+          "student_no": 1,
+          "author": {
+            "name": "admin"
+          },
+          "price": "100.00",
+          "image_url": "/WhatsApp Image 2023-11-03 at 19.05.42_aa21785e.jpg"
+        }
+      ],
+      "sector_image": "http://localhost/media/sector_image/download_BFewGOo.jfif"
+    },
+    {
+      "sector_name": "Machine Learning",
+      "sector_uuid": "53c4cb9a-807d-4097-9bc5-db9ad2577b45",
+      "featured_course": [
+        {
+          "course_uuid": "940bba37-e6ad-483d-92b6-470e294d506d",
+          "title": "Testing_Course",
+          "student_no": 1,
+          "author": {
+            "name": "admin"
+          },
+          "price": "100.00",
+          "image_url": "http://localhost:8080/media/course_images/Online-courses_pQ4RErw.jpg"
+        }
+      ],
+      "sector_image": "http://localhost/media/sector_image/1_cG6U1qstYDijh9bPL42e-Q.jpg"
+    },
+    {
+      "sector_name": "Python",
+      "sector_uuid": "0409a227-1747-491d-aa7c-ba8aa7c8450d",
+      "featured_course": [
+        {
+          "course_uuid": "940bba37-e6ad-483d-92b6-470e294d506d",
+          "title": "Testing_Course",
+          "student_no": 1,
+          "author": {
+            "name": "admin"
+          },
+          "price": "100.00",
+          "image_url": "http://localhost:8080/media/course_images/Online-courses_pQ4RErw.jpg"
+        }
+      ],
+      "sector_image": "http://localhost/media/sector_image/images_qjmLi3P.png"
+  }
+  ]

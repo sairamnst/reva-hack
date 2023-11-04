@@ -1,0 +1,108 @@
+body {
+  font-family: 'Inter';
+  display:flex;
+}
+
+/*  LOGO  */
+/*     
+.skillstream{
+    position: absolute;
+    width: 131px;
+    height: 35px;
+    left: 79px; 
+    top: 32px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 35px;
+    color: #0BA5EC;
+  } */
+
+
+.main{
+    padding-left:20px;
+  }
+  
+
+
+  /*search box component*/
+
+  .comp{
+    padding-left: 190px;
+    padding-top: 40px;
+  }
+  
+  /*searchbox*/
+  
+  .searchbox{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 25px;
+    border:1px solid black;
+  }
+  
+  /*gird to seperate the page!*/
+  
+  .three-columns-grid {
+      display: grid;
+      grid-auto-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr 20px 22%;
+  }
+  .three-columns-grid > * {
+      padding:1rem;
+  }
+
+  .temp{
+    padding-left: 17px;
+
+  }
+  /*Grid for course completion*/
+  
+  .ed{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    width: 900px;
+    
+  }
+
+  /*content of course completion*/
+
+  .table{
+        border: 2px solid #E3E4E7;
+        margin-right: 10px;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        width: 220px;
+  }
+  
+  /*column seperation*/
+
+  .two-columns {
+      display:flex;
+  }
+  .two-columns > * {
+      width:80%;
+      padding:0.1rem;
+    }
+
+
+.wel{
+  font-weight:500;
+  size:30px;
+  padding-left: 30px;
+  padding-top: 27px;
+}
+
+.timeline{
+  padding-right:20px;
+  font-weight: 500;
+  padding-top: 90px;
+  padding-left: 35px;
+  font-size: 20px; 
+  font-family: Inter;
+}

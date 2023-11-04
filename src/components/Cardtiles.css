@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.wel{
+    background-color: rgb(16, 80, 101);
+    border:3px;
+    border-radius: 12px;
+    margin:6px;
+    padding:3px;
+    padding-top:5px;
+    border-width: .25rem;
+    box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );	
+    display:inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.wel:hover{
+    transition:0.25s ease-out;
+    background-color:lightblue;
+} 
+
+.logo1{
+    width: 250px;
+    height: 250px;
+}
