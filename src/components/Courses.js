@@ -5,7 +5,7 @@ export const Courses = [
     },
     {
       id: 2,
-      name: 'Vijay'
+      name: 'Ux/Ui'
     },
     {
       id: 3,

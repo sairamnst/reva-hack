@@ -9,13 +9,13 @@ export default function Record_server(){
         <>
         <div className="flex">
             <Sidenav1/>
-            <div className="n">
+
             <Searchbar/>
-            </div>
+
             {/* course boxes */}
             
-            </div>
-            <div className="flex k">
+
+            
             {Records.map((item)=>(
                 <div className="items">
                 {item.sector_name === "Javascript" ?
@@ -28,6 +28,7 @@ export default function Record_server(){
                 </div>
             ))}
             </div>
+
             </>
 
     );
