@@ -58,6 +58,9 @@ class Course(models.Model):
     def get_absolute_image_url(self):
         return 'http://localhost:8080'+self.image_url.url
 
+    def get_id(self):
+        return self.language
+
 class CourseSection(models.Model):
     section = models.CharField(max_length=255)
     episode = models.ManyToManyField('Episode', blank=True)

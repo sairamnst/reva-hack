@@ -11,6 +11,7 @@ class CourseDisplaySerializer(ModelSerializer):
     student_no = serializers.IntegerField(source='get_enrolled_student')
     author = UserSerializer()
     image_url = serializers.CharField(source='get_absolute_image_url')
+    language = serializers.CharField(source='get_id')
 
     class Meta:
         model = Course
@@ -21,6 +22,7 @@ class CourseDisplaySerializer(ModelSerializer):
             'author',
             'price',
             'image_url',
+            'language',
         ]
 
 class CommentSerializer(ModelSerializer):
